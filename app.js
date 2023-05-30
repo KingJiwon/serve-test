@@ -12,5 +12,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(app.get("port"), () => {
-  console.log(app.get("port"), "번 포트에서 배포 서버 실행");
+  console.log(app.get("port"), "번 포트에서 배포 서버 실행!");
 });
